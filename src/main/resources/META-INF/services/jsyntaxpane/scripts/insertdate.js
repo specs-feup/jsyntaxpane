@@ -1,3 +1,8 @@
+// Add support for Java 8
+if (typeof(load) === typeof(Function)) {
+    load("nashorn:mozilla_compat.js");
+}
+
 // Import the needed java packages and classes
 importPackage(java.util);
 importClass(javax.swing.JOptionPane)
